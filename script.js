@@ -20,6 +20,9 @@ function assignRandomAmbassador() {
     const ambassadorDropdown =
         document.getElementById("ambassador");
 
+    const nameDisplay =
+        document.getElementById("assignedAmbassadorName");
+
     const options = Array.from(
         ambassadorDropdown.options
     ).filter(option => option.value !== "");
@@ -28,11 +31,17 @@ function assignRandomAmbassador() {
         Math.random() * options.length
     );
 
-    ambassadorDropdown.value =
+    const selectedAmbassador =
         options[randomIndex].value;
+
+    // Update the dropdown
+    ambassadorDropdown.value = selectedAmbassador;
+
+    // Display the assigned name in the instructions
+    nameDisplay.textContent = selectedAmbassador;
 }
 
-// Assign an ambassador when the website opens.
+// Assign ambassador when the website opens
 assignRandomAmbassador();
 
 function getScores() {
