@@ -31,14 +31,6 @@ body {
     border-radius: 6px;
 }
 
-.assignment-label {
-    margin: 0 0 8px;
-    color: #001e44;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
 .assignment-message {
     margin: 0;
     color: #333333;
