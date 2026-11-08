@@ -175,7 +175,7 @@ document.getElementById("newEvaluation")
         form.reset();
 
         updateScores();
-
+assignRandomAmbassador();
         form.classList.remove("hidden");
 
         document.querySelector(".intro")
