@@ -53,7 +53,7 @@ body {
 }
 
 .organization-name {
-    color: #001e44;
+    color: #ffffff;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -62,7 +62,7 @@ body {
 }
 
 .page-header h1 {
-    color: #001e44;
+    color: #ffffff;
     font-size: 30px;
     font-weight: 700;
     margin: 0 0 10px 0;
@@ -70,7 +70,7 @@ body {
 }
 
 .page-subtitle {
-    color: #555555;
+    color: #ffffff;
     font-size: 17px;
     margin: 0;
     animation: slideUp 1s ease-out 0.5s both;
