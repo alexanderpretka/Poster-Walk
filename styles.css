@@ -43,6 +43,35 @@ body {
     font-weight: 700;
 }
 
+/* CENTERED PAGE HEADER */
+
+.page-header {
+    text-align: center;
+    margin: 0 auto 30px auto;
+    padding: 20px 10px;
+}
+
+.organization-name {
+    color: #001e44;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.page-header h1 {
+    color: #001e44;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.page-subtitle {
+    color: #555555;
+    font-size: 17px;
+    margin: 0;
+}
+
 .header {
     background: var(--navy);
     color: var(--white);
