@@ -13,6 +13,28 @@ const SCRIPT_URL =
 
 const form = document.getElementById("evaluationForm");
 
+// RANDOMLY ASSIGN AN IDEA AMBASSADOR
+
+function assignRandomAmbassador() {
+
+    const ambassadorDropdown =
+        document.getElementById("ambassador");
+
+    const options = Array.from(
+        ambassadorDropdown.options
+    ).filter(option => option.value !== "");
+
+    const randomIndex = Math.floor(
+        Math.random() * options.length
+    );
+
+    ambassadorDropdown.value =
+        options[randomIndex].value;
+}
+
+// Assign an ambassador when the website opens.
+assignRandomAmbassador();
+
 function getScores() {
     const scores = [];
 
