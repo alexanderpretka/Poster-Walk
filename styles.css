@@ -23,6 +23,34 @@ body {
     line-height: 1.6;
 }
 
+.assignment-instruction {
+    margin-top: 20px;
+    padding: 16px 20px;
+    background-color: #f4f6f8;
+    border-left: 4px solid #b89a5a;
+    border-radius: 6px;
+}
+
+.assignment-label {
+    margin: 0 0 8px;
+    color: #001e44;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.assignment-message {
+    margin: 0;
+    color: #333333;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.assignment-message strong {
+    color: #001e44;
+    font-weight: 700;
+}
+
 .header {
     background: var(--navy);
     color: var(--white);
