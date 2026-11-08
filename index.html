@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDEA Ambassador Capstone Evaluation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header class="header">
+    <div class="header-content">
+        <p class="university">PENN STATE RESIDENCE LIFE</p>
+        <h1>IDEA Ambassador Capstone Poster Walk</h1>
+        <p class="subtitle">Evaluator Feedback and Assessment Form</p>
+    </div>
+</header>
+
+<main class="container">
+
+    <section class="intro card">
+        <h2>Evaluation Instructions</h2>
+        <p>
+            Thank you for participating in the IDEA Ambassador Capstone Poster Walk.
+            Please evaluate the ambassador's poster, presentation, and discussion.
+            Each of the seven criteria is scored from 1 to 4, for a maximum of 28 points.
+        </p>
+        <p>
+            This evaluation is intended to support learning, reflection, and
+            professional development.
+        </p>
+    </section>
+
+    <form id="evaluationForm">
+
+        <section class="card">
+            <h2>Evaluator Information</h2>
+
+            <div class="form-group">
+                <label for="evaluator">Evaluator Name <span class="required">*</span></label>
+                <input
+                    type="text"
+                    id="evaluator"
+                    name="evaluator"
+                    placeholder="Enter your name"
+                    maxlength="120"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="ambassador">IDEA Ambassador <span class="required">*</span></label>
+                <select id="ambassador" name="ambassador" required>
+                    <option value="">Select an IDEA Ambassador</option>
+                    <!-- Add ambassador names below -->
+                    <option value="Ambassador Name 1">Ambassador Name 1</option>
+                    <option value="Ambassador Name 2">Ambassador Name 2</option>
+                    <option value="Ambassador Name 3">Ambassador Name 3</option>
+                </select>
+                <small>Replace the example names with your actual ambassador names.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="topic">Poster Topic</label>
+                <input
+                    type="text"
+                    id="topic"
+                    name="topic"
+                    placeholder="Enter the poster topic"
+                    maxlength="250"
+                >
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Part 1: Poster Content</h2>
+            <p class="section-description">Five criteria · 20 points possible</p>
+
+            <div class="criterion">
+                <h3>1. Understanding of System of Oppression</h3>
+                <p>
+                    Explains the selected system of oppression, including relevant
+                    systems, structures, and historical or societal factors.
+                </p>
+                <div class="rating-options">
+                    <label><input type="radio" name="score0" value="1" required> 1 - Beginning</label>
+                    <label><input type="radio" name="score0" value="2"> 2 - Developing</label>
+                    <label><input type="radio" name="score0" value="3"> 3 - Proficient</label>
+                    <label><input type="radio" name="score0" value="4"> 4 - Exemplary</label>
+                </div>
+            </div>
+
+            <div class="criterion">
+                <h3>2. Knowledge and Application of Learning</h3>
+                <p>
+                    Applies ideas from the Context, Voices, and Next Steps chapters
+                    and demonstrates critical thinking about the topic.
+                </p>
+                <div class="rating-options">
+                    <label><input type="radio" name="score1" value="1" required> 1 - Beginning</label>
+                    <label><input type="radio" name="score1" value="2"> 2 - Developing</label>
+                    <label><input type="radio" name="score1" value="3"> 3 - Proficient</label>
+                    <label><input type="radio" name="score1" value="4"> 4 - Exemplary</label>
+                </div>
+            </div>
+
+            <div class="criterion">
+                <h3>3. Connection to Student Experiences</h3>
+                <p>
+                    Connects the topic to student experiences, higher education,
+                    or the campus environment using relevant examples.
+                </p>
+                <div class="rating-options">
+                    <label><input type="radio" name="score2" value="1" required> 1 - Beginning</label>
+                    <label><input type="radio" name="score2" value="2"> 2 - Developing</label>
+                    <label><input type="radio" name="score2" value="3"> 3 - Proficient</label>
+                    <label><input type="radio" name="score2" value="4"> 4 - Exemplary</label>
+                </div>
+            </div>
+
+            <div class="criterion">
+                <h3>4. Reflective Questions and Professional Application</h3>
+                <p>
+                    Encourages reflection on staff practices, policies, and
+                    professional responsibilities related to the topic.
+                </p>
+                <div class="rating-options">
+                    <label><input type="radio" name="score3" value="1" required> 1 - Beginning</label>
+                    <label><input type="radio" name="score3" value="2"> 2 - Developing</label>
+                    <label><input type="radio" name="score3" value="3"> 3 - Proficient</label>
+                    <label><input type="radio" name="score3" value="4"> 4 - Exemplary</label>
+                </div>
+            </div>
+
+            <div class="criterion">
+                <h3>5. Poster Organization, Design, and References</h3>
+                <p>
+                    Uses a clear, readable, professional layout and includes
+                    appropriate references formatted in APA 7 style.
+                </p>
+                <div class="rating-options">
+                    <label><input type="radio" name="score4" value="1" required> 1 - Beginning</label>
+                    <label><input type="radio" name="score4" value="2"> 2 - Developing</label>
+                    <label><input type="radio" name="score4" value="3"> 3 - Proficient</label>
+                    <label><input type="radio" name="score4" value="4"> 4 - Exemplary</label>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Part 2: Presentation and Discussion</h2>
+            <p class="section-description">Two criteria · 8 points possible</p>
+
+            <div class="criterion">
+                <h3>6. Oral Presentation and Communication</h3>
+                <p>
+                    Delivers a prepared 2–3 minute presentation and communicates
+                    ideas clearly and accessibly.
+                </p>
+                <div class="rating-options">
+                    <label><input type="radio" name="score5" value="1" required> 1 - Beginning</label>
+                    <label><input type="radio" name="score5" value="2"> 2 - Developing</label>
+                    <label><input type="radio" name="score5" value="3"> 3 - Proficient</label>
+                    <label><input type="radio" name="score5" value="4"> 4 - Exemplary</label>
+                </div>
+            </div>
+
+            <div class="criterion">
+                <h3>7. Discussion and Engagement</h3>
+                <p>
+                    Facilitates discussion, responds thoughtfully to questions,
+                    and remains open to different perspectives.
+                </p>
+                <div class="rating-options">
+                    <label><input type="radio" name="score6" value="1" required> 1 - Beginning</label>
+                    <label><input type="radio" name="score6" value="2"> 2 - Developing</label>
+                    <label><input type="radio" name="score6" value="3"> 3 - Proficient</label>
+                    <label><input type="radio" name="score6" value="4"> 4 - Exemplary</label>
+                </div>
+            </div>
+        </section>
+
+        <section class="score-card">
+            <h2>Your Evaluation Score</h2>
+
+            <div class="score-grid">
+                <div>
+                    <span>Poster Content</span>
+                    <strong id="posterScore">0 / 20</strong>
+                </div>
+                <div>
+                    <span>Presentation &amp; Discussion</span>
+                    <strong id="presentationScore">0 / 8</strong>
+                </div>
+                <div>
+                    <span>Total Score</span>
+                    <strong id="totalScore">0 / 28</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Written Feedback</h2>
+
+            <div class="form-group">
+                <label for="strengths">Strengths</label>
+                <textarea
+                    id="strengths"
+                    name="strengths"
+                    placeholder="What did the ambassador do particularly well?"
+                    maxlength="3000"
+                ></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="growth">Growth Opportunities</label>
+                <textarea
+                    id="growth"
+                    name="growth"
+                    placeholder="What could the ambassador continue developing?"
+                    maxlength="3000"
+                ></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="comments">Additional Comments</label>
+                <textarea
+                    id="comments"
+                    name="comments"
+                    placeholder="Enter any additional feedback."
+                    maxlength="3000"
+                ></textarea>
+            </div>
+        </section>
+
+        <button type="submit" id="submitButton" class="submit-button">
+            Submit Evaluation
+        </button>
+
+        <p id="statusMessage" role="status" aria-live="polite"></p>
+
+    </form>
+
+    <section id="confirmation" class="card confirmation hidden">
+        <h2>Evaluation Sent</h2>
+        <p>
+            Your evaluation has been sent to the submission endpoint.
+            Please verify that it appears as a new row in the Google Sheet.
+        </p>
+        <button type="button" id="newEvaluation" class="submit-button">
+            Submit Another Evaluation
+        </button>
+    </section>
+
+</main>
+
+<footer>
+    <p>Penn State Residence Life · IDEA Ambassador Capstone Poster Walk</p>
+</footer>
+
+</body>
+</html>
