@@ -55,6 +55,10 @@ body {
     margin: auto;
 }
 
+#ambassador {
+    display: none;
+}
+
 .university {
     color: #dce6f1;
     font-size: 13px;
