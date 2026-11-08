@@ -173,6 +173,42 @@ form.addEventListener("submit", async function(event) {
     }
 });
 
+// SUGGESTED QUESTIONS POP-UP
+
+const questionsModal = document.getElementById("questionsModal");
+const openQuestions = document.getElementById("openQuestions");
+const closeQuestions = document.getElementById("closeQuestions");
+const closeQuestionsButton = document.getElementById("closeQuestionsButton");
+
+// Open pop-up
+openQuestions.addEventListener("click", function(event) {
+    event.preventDefault();
+    questionsModal.style.display = "flex";
+});
+
+// Close using X button
+closeQuestions.addEventListener("click", function() {
+    questionsModal.style.display = "none";
+});
+
+// Close using bottom button
+closeQuestionsButton.addEventListener("click", function() {
+    questionsModal.style.display = "none";
+});
+
+// Close when clicking outside the pop-up
+questionsModal.addEventListener("click", function(event) {
+    if (event.target === questionsModal) {
+        questionsModal.style.display = "none";
+    }
+});
+
+// Close by pressing Escape
+document.addEventListener("keydown", function(event) {
+    if (event.key === "Escape") {
+        questionsModal.style.display = "none";
+    }
+});
 
 // ============================================
 // SUBMIT ANOTHER EVALUATION
