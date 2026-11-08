@@ -289,6 +289,93 @@ footer {
     padding: 20px;
 }
 
+/* SUGGESTED QUESTIONS LINK */
+
+#openQuestions {
+    color: #001e44;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#openQuestions:hover {
+    color: #b89a5a;
+}
+
+
+/* SUGGESTED QUESTIONS POP-UP */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.modal-content {
+    position: relative;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 650px;
+    max-height: 85vh;
+    overflow-y: auto;
+}
+
+.modal-content h2 {
+    color: #001e44;
+    margin-top: 0;
+    padding-right: 25px;
+}
+
+.modal-content p {
+    line-height: 1.6;
+    color: #444;
+}
+
+.modal-content ol {
+    padding-left: 25px;
+}
+
+.modal-content li {
+    margin-bottom: 12px;
+    line-height: 1.5;
+    color: #333;
+}
+
+
+/* POP-UP CLOSE BUTTONS */
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    border: none;
+    background: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #333;
+}
+
+.modal-close-button {
+    background: #001e44;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.modal-close-button:hover {
+    background: #b89a5a;
+}
+
 @media (max-width: 650px) {
     .container {
         margin-top: 18px;
